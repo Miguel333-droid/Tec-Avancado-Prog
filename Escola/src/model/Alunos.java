@@ -15,9 +15,6 @@ public class Alunos {
 		formando = false;
 	}
 	
-	public Alunos () {
-		
-	}
 	
 	public void setNome(String nome) {
 		this.nome=nome;

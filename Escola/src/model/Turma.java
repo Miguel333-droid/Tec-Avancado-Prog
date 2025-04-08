@@ -13,9 +13,7 @@ public class Turma {
 		this.serie = serie;
 	}
 	
-	public Turma() {
-		
-	}
+	
 	
 	public void setNome(String nome) {
 		this.nome=nome;
@@ -51,6 +49,6 @@ public class Turma {
 
 	@Override
 	public String toString() {
-		return "Seu nome é " + nome + ", seu curso é " + curso + ", a quantidade de alunos é  " + qtdAlunos + ", sua série é " + serie + "º";
+		return "Seu nome é " + nome + ", seu curso é " + curso + ", a quantidade de alunos é  " + qtdAlunos + ", sua série é a" + serie + "º";
 	}
 }
