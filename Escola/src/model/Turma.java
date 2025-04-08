@@ -13,6 +13,10 @@ public class Turma {
 		this.serie = serie;
 	}
 	
+	public Turma() {
+		
+	}
+	
 	public void setNome(String nome) {
 		this.nome=nome;
 	}
@@ -43,5 +47,10 @@ public class Turma {
 	
 	public int getSerie() {
 		return serie;
+	}
+
+	@Override
+	public String toString() {
+		return "Seu nome é " + nome + ", seu curso é " + curso + ", a quantidade de alunos é  " + qtdAlunos + ", sua série é " + serie + "º";
 	}
 }
